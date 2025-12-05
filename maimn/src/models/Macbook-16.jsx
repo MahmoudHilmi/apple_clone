@@ -22,7 +22,7 @@ export default function MacBookModel16(props) {
 
 const {color} = useMacBookStore()
 
-  const texture = useTexture("/screen.png");
+  const texture = useTexture("/tamer-algayar.png");
   
   useEffect(() => {
 scene.traverse((child) => {
