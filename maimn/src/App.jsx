@@ -4,6 +4,7 @@ import Hero from "./components/Hero";
 import ProductViewer from "./components/productViewer";
 import gsap from "gsap";
 import { ScrollTrigger, SplitText } from "gsap/all";
+import Showcase from "./components/Showcase";
 import Performance from "./components/Performance";
 import Features from "./components/Features";
 import Highlights from "./components/Highlights";
@@ -19,6 +20,7 @@ function App() {
       <Navbar />
       <Hero />
       <ProductViewer />
+      <Showcase />
       <Performance />
       <Features />
       <Highlights />
